@@ -25,7 +25,7 @@ const App = () => {
 
     return (
         <div>
-            <h1>Alan AI News App made by Shawn Humphreys</h1>
+            <h1>AI News Application made by Shawn Humphreys</h1>
             <NewsCards articles={newsArticles} />
         </div>
     )
