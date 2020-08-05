@@ -45,8 +45,10 @@ const App = () => {
 
     return (
         <div>
-            <h1>AI News Application made by Shawn Humphreys</h1>
-            <NewsCards articles={newsArticles} />
+            <div className={classes.logoContainer}>
+                <img src="https://www.fintechfutures.com/files/2017/11/AI-FOT-A.jpg" className={classes.logo} alt="AI Logo" />
+            </div>
+            <NewsCards articles={newsArticles} activeArticle={activeArticle}/>
         </div>
     )
 }
